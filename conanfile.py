@@ -30,7 +30,7 @@ class Arpackpp(ConanFile):
         "blas"              : "OpenBLAS",
         "interface64"       : False,
         "mpi"               : False,
-        "prefer_pkgconfig"   : False,
+        "prefer_pkgconfig"  : False,
         "blas_libraries"    : None,
         "lapack_libraries"  : None,
     }
